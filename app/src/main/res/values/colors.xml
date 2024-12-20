@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="skyblue">#FFa6d2ff</color>
+    <color name="recyclerText">#FF000000</color>
+    <color name="recyclerBg">#FFFFFFFF</color>
+    <color name="recyclerStroke">#FF175ce6</color>
+
+</resources>

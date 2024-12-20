@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestRecycler</string>
+
+    <string name="item_ok">Corecto</string>
+    <string name="item_warning">Advertencia</string>
+    <string name="item_error">Error</string>
+    <string name="clic_item">Clic Item</string>
+</resources>

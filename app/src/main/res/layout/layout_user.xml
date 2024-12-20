@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/controlMargin">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/userImage"
+        android:layout_width="@dimen/userImage"
+        android:layout_height="@dimen/userImage"
+        android:src="@drawable/ic_men"
+        app:srcCompat="@drawable/ic_men"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/userData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/controlMargin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/recyclerText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Nombre" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/recyclerText"
+            android:textSize="@dimen/fontEmail"
+            tools:text="email@host.com" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

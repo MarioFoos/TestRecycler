@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontName">18sp</dimen>
+    <dimen name="fontEmail">16sp</dimen>
+    <dimen name="userImage">48dp</dimen>
+
+    <dimen name="mainPadding">16dp</dimen>
+    <dimen name="mainLayout">200dp</dimen>
+    <dimen name="controlMargin">8dp</dimen>
+</resources>
